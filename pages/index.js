@@ -8,6 +8,7 @@ const Home = ()=> {
 
   const setCookie = lang => {
     document.cookie=`NEXT_LOCALE=${lang}`
+    window.location.relaod()
   }
 
   return (
